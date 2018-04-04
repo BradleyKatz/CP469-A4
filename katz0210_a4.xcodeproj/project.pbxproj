@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4A1B91712044B5BB008EF3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B91702044B5BB008EF3CB /* AppDelegate.swift */; };
-		4A1B91732044B5BC008EF3CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B91722044B5BC008EF3CB /* ViewController.swift */; };
+		4A1B91732044B5BC008EF3CB /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B91722044B5BC008EF3CB /* CardViewController.swift */; };
 		4A1B91762044B5BC008EF3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1B91742044B5BC008EF3CB /* Main.storyboard */; };
 		4A1B91782044B5BC008EF3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1B91772044B5BC008EF3CB /* Assets.xcassets */; };
 		4A1B917B2044B5BC008EF3CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1B91792044B5BC008EF3CB /* LaunchScreen.storyboard */; };
+		4A1B91832044BD93008EF3CB /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B91822044BD93008EF3CB /* CardTableViewCell.swift */; };
+		4A1B91852044C169008EF3CB /* DeckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B91842044C169008EF3CB /* DeckTableViewController.swift */; };
+		4A1B91872044C567008EF3CB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B91862044C567008EF3CB /* Card.swift */; };
+		4A1B91892044C681008EF3CB /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B91882044C681008EF3CB /* Deck.swift */; };
+		4A1B918B2044E6D6008EF3CB /* SharedDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B918A2044E6D6008EF3CB /* SharedDeck.swift */; };
+		4A1B918D2044EC7B008EF3CB /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B918C2044EC7B008EF3CB /* AddCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A1B916D2044B5BB008EF3CB /* katz0210_a4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = katz0210_a4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1B91702044B5BB008EF3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A1B91722044B5BC008EF3CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A1B91722044B5BC008EF3CB /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		4A1B91752044B5BC008EF3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A1B91772044B5BC008EF3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A1B917A2044B5BC008EF3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A1B917C2044B5BC008EF3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1B91822044BD93008EF3CB /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		4A1B91842044C169008EF3CB /* DeckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckTableViewController.swift; sourceTree = "<group>"; };
+		4A1B91862044C567008EF3CB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4A1B91882044C681008EF3CB /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4A1B918A2044E6D6008EF3CB /* SharedDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDeck.swift; sourceTree = "<group>"; };
+		4A1B918C2044EC7B008EF3CB /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				4A1B91702044B5BB008EF3CB /* AppDelegate.swift */,
-				4A1B91722044B5BC008EF3CB /* ViewController.swift */,
+				4A1B91722044B5BC008EF3CB /* CardViewController.swift */,
 				4A1B91742044B5BC008EF3CB /* Main.storyboard */,
+				4A1B918C2044EC7B008EF3CB /* AddCardViewController.swift */,
+				4A1B91842044C169008EF3CB /* DeckTableViewController.swift */,
+				4A1B91822044BD93008EF3CB /* CardTableViewCell.swift */,
 				4A1B91772044B5BC008EF3CB /* Assets.xcassets */,
 				4A1B91792044B5BC008EF3CB /* LaunchScreen.storyboard */,
 				4A1B917C2044B5BC008EF3CB /* Info.plist */,
+				4A1B91862044C567008EF3CB /* Card.swift */,
+				4A1B91882044C681008EF3CB /* Deck.swift */,
+				4A1B918A2044E6D6008EF3CB /* SharedDeck.swift */,
 			);
 			path = katz0210_a4;
 			sourceTree = "<group>";
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A1B91732044B5BC008EF3CB /* ViewController.swift in Sources */,
+				4A1B918D2044EC7B008EF3CB /* AddCardViewController.swift in Sources */,
+				4A1B91892044C681008EF3CB /* Deck.swift in Sources */,
+				4A1B91732044B5BC008EF3CB /* CardViewController.swift in Sources */,
+				4A1B918B2044E6D6008EF3CB /* SharedDeck.swift in Sources */,
+				4A1B91832044BD93008EF3CB /* CardTableViewCell.swift in Sources */,
+				4A1B91872044C567008EF3CB /* Card.swift in Sources */,
+				4A1B91852044C169008EF3CB /* DeckTableViewController.swift in Sources */,
 				4A1B91712044B5BB008EF3CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.wlu.katz0210.katz0210-a4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.wlu.katz0210.katz0210-a4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
